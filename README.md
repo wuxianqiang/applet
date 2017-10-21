@@ -33,6 +33,6 @@
 *  `wx.navigateBack()`方法返回这个页面
 * 条件渲染，`wx:if="布尔值"` 这样写
 * `hidden`也可以控制显示和隐藏，但是只作用于text标签上
-* `wx:for="{{[id,5,4,3,2,1]}}"`循环可以这样写
+* `wx:for="{{[id,5,4,3,2,1]}}"`循环可以这样写，当前项用`{{item}}`表示，可以用`wx:for-item`来更改变量的名字，小标用`{{index}}`表示，可以用`wx:for-index`来更改变量的名字
 * `<template name="object"></template>`模板定义的时候要有name属性
 * 使用的时候`<template is="object" data="{{data}}"></template>`
