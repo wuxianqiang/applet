@@ -34,4 +34,4 @@
 * 条件渲染，`wx:if="布尔值"` 这样写
 * `hidden`也可以控制显示和隐藏，但是只作用于text标签上
 * `wx:for="{{[id,5,4,3,2,1]}}"`循环可以这样写
-* `<template name="object"></template>`模板定义的时候要有name属性，使用的时候<template is="object" data="{{data}}"></template>
+* `<template name="object"></template>`模板定义的时候要有name属性，使用的时候`<template is="object" data="{{data}}"></template>`
