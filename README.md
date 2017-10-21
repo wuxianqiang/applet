@@ -28,3 +28,4 @@
 5. 其他
 * `view`标签相当于html里面的`div`
 * `onLoad`方法当页面加载完成执行
+* `wx.navigateTo({url: xxx})`定义路由
