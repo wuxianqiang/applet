@@ -31,5 +31,6 @@
 * `wx.navigateTo({url: '../index/index'})`定义路由，相当于js实现跳转
 * `navigator`标签也可以实现跳转，url属性指定跳转到的页面
 *  `wx.navigateBack()`方法返回这个页面
-* 条件渲染，`wx:if=布尔值` 这样写
+* 条件渲染，`wx:if="布尔值"` 这样写
 * `hidden`也可以控制显示和隐藏，但是只作用于text标签上
+* `wx:for="{{[id,5,4,3,2,1]}}"循环可以这样写
