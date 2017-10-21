@@ -28,4 +28,5 @@
 5. 其他
 * `view`标签相当于html里面的`div`
 * `onLoad`方法当页面加载完成执行
-* `wx.navigateTo({url: '../index/index'})`定义路由
+* `wx.navigateTo({url: '../index/index'})`定义路由，相当于js实现跳转
+* `navigator`标签也可以实现跳转
