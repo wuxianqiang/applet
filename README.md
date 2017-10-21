@@ -30,3 +30,4 @@
 * `onLoad`方法当页面加载完成执行
 * `wx.navigateTo({url: '../index/index'})`定义路由，相当于js实现跳转
 * `navigator`标签也可以实现跳转，url属性指定跳转到的页面
+*  `wx.navigateBack`返回这个页面
