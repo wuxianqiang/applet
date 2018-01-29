@@ -36,3 +36,11 @@
 * `wx:for="{{[id,5,4,3,2,1]}}"`循环可以这样写，当前项用`{{item}}`表示，可以用`wx:for-item`来更改变量的名字，下标用`{{index}}`表示，可以用`wx:for-index`来更改变量的名字
 * `<template name="object"></template>`模板定义的时候要有name属性
 * 使用的时候`<template is="object" data="{{data}}"></template>`
+
+### 标签
+<view>相当于div
+<text>相当于p
+<image>相当于img
+1rpx = 2px 
+宽度 750rpx = 100%
+线条使用 1px
