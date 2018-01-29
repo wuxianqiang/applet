@@ -38,9 +38,10 @@
 * 使用的时候`<template is="object" data="{{data}}"></template>`
 
 ### 标签
-<view>相当于div
-<text>相当于p
-<image>相当于img
-1rpx = 2px 
-宽度 750rpx = 100%
-线条使用 1px
+1. `<view>` 相当于 `div`
+2. `<text>` 相当于 `p`
+3. `<image>` 相当于 `img`
+4. `1rpx = 2px `
+5. 宽度 `750rpx = 100%`
+6. 线条使用 `1px`
+7. 绑定点击事件 `bindtap`会冒泡 `catchtap`不会冒泡相当于 `click`
